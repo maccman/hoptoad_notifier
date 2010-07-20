@@ -79,6 +79,7 @@ namespace :hoptoad do
 
     Rails::Application.routes.draw do |map|
       match 'verify' => 'application#verify', :as => 'verify'
+    end
 
     puts 'Processing request.'
     env = Rack::MockRequest.env_for("/verify")

@@ -2,14 +2,14 @@
 
 Gem::Specification.new do |s|
   s.name = %q{hoptoad_notifier}
-  s.version = "2.2.2"
+  s.version = "2.3.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["thoughtbot, inc"]
   s.date = %q{2010-07-20}
   s.email = %q{support@hoptoadapp.com}
   s.extra_rdoc_files = ["README.rdoc"]
-  s.files = ["CHANGELOG", "INSTALL", "MIT-LICENSE", "Rakefile", "README.rdoc", "SUPPORTED_RAILS_VERSIONS", "TESTING.rdoc", "generators/hoptoad/hoptoad_generator.rb", "generators/hoptoad/lib/insert_commands.rb", "generators/hoptoad/lib/rake_commands.rb", "generators/hoptoad/templates/capistrano_hook.rb", "generators/hoptoad/templates/hoptoad_notifier_tasks.rake", "generators/hoptoad/templates/initializer.rb", "lib/hoptoad_notifier/backtrace.rb", "lib/hoptoad_notifier/capistrano.rb", "lib/hoptoad_notifier/configuration.rb", "lib/hoptoad_notifier/notice.rb", "lib/hoptoad_notifier/rack.rb", "lib/hoptoad_notifier/rails/action_controller_catcher.rb", "lib/hoptoad_notifier/rails/controller_methods.rb", "lib/hoptoad_notifier/rails/error_lookup.rb", "lib/hoptoad_notifier/rails.rb", "lib/hoptoad_notifier/rails3_tasks.rb", "lib/hoptoad_notifier/railtie.rb", "lib/hoptoad_notifier/sender.rb", "lib/hoptoad_notifier/tasks.rb", "lib/hoptoad_notifier/version.rb", "lib/hoptoad_notifier.rb", "lib/hoptoad_tasks.rb", "lib/rails_generators/hoptoad/hoptoad_generator.rb", "test/backtrace_test.rb", "test/catcher_test.rb", "test/configuration_test.rb", "test/helper.rb", "test/hoptoad_tasks_test.rb", "test/logger_test.rb", "test/notice_test.rb", "test/notifier_test.rb", "test/rack_test.rb", "test/rails_initializer_test.rb", "test/sender_test.rb", "rails/init.rb", "script/integration_test.rb", "lib/templates/rescue.erb"]
+  s.files = ["CHANGELOG", "INSTALL", "MIT-LICENSE", "Rakefile", "README.rdoc", "SUPPORTED_RAILS_VERSIONS", "TESTING.rdoc", "generators/hoptoad/hoptoad_generator.rb", "generators/hoptoad/lib/insert_commands.rb", "generators/hoptoad/lib/rake_commands.rb", "generators/hoptoad/templates/capistrano_hook.rb", "generators/hoptoad/templates/hoptoad_notifier_tasks.rake", "generators/hoptoad/templates/initializer.rb", "lib/hoptoad_notifier/backtrace.rb", "lib/hoptoad_notifier/capistrano.rb", "lib/hoptoad_notifier/configuration.rb", "lib/hoptoad_notifier/notice.rb", "lib/hoptoad_notifier/rack.rb", "lib/hoptoad_notifier/rails/action_controller_catcher.rb", "lib/hoptoad_notifier/rails/controller_methods.rb", "lib/hoptoad_notifier/rails/error_lookup.rb", "lib/hoptoad_notifier/rails.rb", "lib/hoptoad_notifier/rails3_tasks.rb", "lib/hoptoad_notifier/railtie.rb", "lib/hoptoad_notifier/sender.rb", "lib/hoptoad_notifier/tasks.rb", "lib/hoptoad_notifier/version.rb", "lib/hoptoad_notifier.rb", "lib/hoptoad_tasks.rb", "lib/rails/generators/hoptoad/hoptoad_generator.rb", "test/backtrace_test.rb", "test/catcher_test.rb", "test/configuration_test.rb", "test/helper.rb", "test/hoptoad_tasks_test.rb", "test/logger_test.rb", "test/notice_test.rb", "test/notifier_test.rb", "test/rack_test.rb", "test/rails_initializer_test.rb", "test/sender_test.rb", "rails/init.rb", "script/integration_test.rb", "lib/templates/rescue.erb"]
   s.homepage = %q{http://www.hoptoadapp.com}
   s.rdoc_options = ["--line-numbers", "--main", "README.rdoc"]
   s.require_paths = ["lib"]

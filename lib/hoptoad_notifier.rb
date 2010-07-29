@@ -90,6 +90,9 @@ module HoptoadNotifier
     # @option opts [String] :environment ENV merged with the contents of the request's environment.
     def notify(exception, opts = {})
       send_notice(build_notice_for(exception, opts))
+    rescue => e
+      puts "Hoptoad error!"
+      puts "#{e}\n\t" + e.backtrace.join("\n\t")
     end
 
     # Sends the notice unless it is one of the default ignored exceptions

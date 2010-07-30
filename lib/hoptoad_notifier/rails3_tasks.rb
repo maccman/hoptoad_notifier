@@ -49,20 +49,8 @@ namespace :hoptoad do
         raise exception_class.new, 'Testing hoptoad via "rake hoptoad:test". If you can see this, it works.'
       end
 
-      # def rescue_action(exception)
-      #   rescue_action_in_public exception
-      # end
-
       # Ensure we actually have an action to go to.
       def verify; end
-
-      # def consider_all_requests_local
-      #   false
-      # end
-
-      # def local_request?
-      #   false
-      # end
 
       def exception_class
         exception_name = ENV['EXCEPTION'] || "HoptoadTestingException"

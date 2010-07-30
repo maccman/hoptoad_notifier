@@ -65,7 +65,11 @@ namespace :hoptoad do
       end
 
       # Ensure we actually have an action to go to.
-      def verify; end
+      def verify; end      
+      
+      def consider_all_requests_local
+       false
+      end
 
       def local_request?
         false

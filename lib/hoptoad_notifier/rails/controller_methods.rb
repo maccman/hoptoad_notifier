@@ -6,7 +6,7 @@ module HoptoadNotifier
       # This method should be used for sending manual notifications while you are still
       # inside the controller. Otherwise it works like HoptoadNotifier.notify.
       def notify_hoptoad(hash_or_exception)
-        unless ::Rails.application.config.consider_all_requests_local || local_request?
+        unless consider_all_requests_local || local_request?
           HoptoadNotifier.notify(hash_or_exception, hoptoad_request_data)
         end
       end
